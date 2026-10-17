@@ -1,0 +1,7 @@
+pollutant,seasonal_strength,trend_change
+PM2.5,0.777,3.69
+PM10,0.732,11.95
+NO2,0.596,3.87
+SO2,0.592,-0.23
+CO,0.65,0.19
+Ozone,0.791,-5.96

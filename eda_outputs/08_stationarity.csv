@@ -1,0 +1,37 @@
+pollutant,station,n,adf_p,kpss_p,verdict
+PM2.5,BTM Layout,1096,0.1365,0.0125,non-stationary
+PM2.5,Hebbal,622,0.1462,0.1,conflict: inconclusive
+PM2.5,Jayanagar 5th Block,1096,0.1292,0.1,conflict: inconclusive
+PM2.5,Kasturi Nagar,617,0.0052,0.01,conflict: trend-stationary?
+PM2.5,Peenya,884,0.0116,0.023,conflict: trend-stationary?
+PM2.5,Silk Board,1096,0.0159,0.0467,conflict: trend-stationary?
+PM10,BTM Layout,1096,0.005,0.01,conflict: trend-stationary?
+PM10,Hebbal,731,0.279,0.1,conflict: inconclusive
+PM10,Jayanagar 5th Block,1096,0.0815,0.1,conflict: inconclusive
+PM10,Kasturi Nagar,487,0.0066,0.0403,conflict: trend-stationary?
+PM10,Peenya,1096,0.0074,0.01,conflict: trend-stationary?
+PM10,Silk Board,1096,0.0,0.01,conflict: trend-stationary?
+NO2,BTM Layout,557,0.0001,0.01,conflict: trend-stationary?
+NO2,Hebbal,270,,,block too short (270d)
+NO2,Jayanagar 5th Block,489,0.0,0.1,stationary
+NO2,Kasturi Nagar,973,0.0546,0.01,non-stationary
+NO2,Peenya,805,0.0008,0.0255,conflict: trend-stationary?
+NO2,Silk Board,660,0.0,0.01,conflict: trend-stationary?
+SO2,BTM Layout,531,0.2016,0.01,non-stationary
+SO2,Hebbal,823,0.0068,0.01,conflict: trend-stationary?
+SO2,Jayanagar 5th Block,845,0.1727,0.01,non-stationary
+SO2,Kasturi Nagar,1096,0.0038,0.0415,conflict: trend-stationary?
+SO2,Peenya,746,0.0139,0.01,conflict: trend-stationary?
+SO2,Silk Board,1038,0.0,0.01,conflict: trend-stationary?
+CO,BTM Layout,915,0.0,0.0658,stationary
+CO,Hebbal,915,0.0006,0.01,conflict: trend-stationary?
+CO,Jayanagar 5th Block,762,0.0004,0.0498,conflict: trend-stationary?
+CO,Kasturi Nagar,915,0.2341,0.01,non-stationary
+CO,Peenya,426,0.0001,0.01,conflict: trend-stationary?
+CO,Silk Board,762,0.0005,0.0108,conflict: trend-stationary?
+Ozone,BTM Layout,1096,0.001,0.0843,stationary
+Ozone,Hebbal,1005,0.0067,0.1,stationary
+Ozone,Jayanagar 5th Block,802,0.0,0.1,stationary
+Ozone,Kasturi Nagar,699,0.0,0.01,conflict: trend-stationary?
+Ozone,Peenya,1096,0.0195,0.01,conflict: trend-stationary?
+Ozone,Silk Board,915,0.0082,0.1,stationary

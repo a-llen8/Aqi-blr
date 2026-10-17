@@ -1,0 +1,95 @@
+feature,group,window,leakage,note
+aqi_lag1,lag,t-1,safe,observed value L days before the target day
+aqi_lag2,lag,t-2,safe,observed value L days before the target day
+aqi_lag3,lag,t-3,safe,observed value L days before the target day
+aqi_lag7,lag,t-7,safe,observed value L days before the target day
+aqi_lag14,lag,t-14,safe,observed value L days before the target day
+aqi_rmean3,rolling,t-3 to t-1,safe,mean of the 3 days before the target day
+aqi_rstd3,rolling,t-3 to t-1,safe,variability over the 3 days before the target day
+aqi_rmean7,rolling,t-7 to t-1,safe,mean of the 7 days before the target day
+aqi_rstd7,rolling,t-7 to t-1,safe,variability over the 7 days before the target day
+aqi_rmean14,rolling,t-14 to t-1,safe,mean of the 14 days before the target day
+aqi_rstd14,rolling,t-14 to t-1,safe,variability over the 14 days before the target day
+aqi_rmean30,rolling,t-30 to t-1,safe,mean of the 30 days before the target day
+aqi_rstd30,rolling,t-30 to t-1,safe,variability over the 30 days before the target day
+aqi_chg1,change,t-2 to t-1,safe,day-over-day change as of the forecast origin
+aqi_chg7,change,t-8 to t-1,safe,week-over-week change as of the forecast origin
+PM2.5_lag1,lag,t-1,safe,observed value L days before the target day
+PM2.5_lag2,lag,t-2,safe,observed value L days before the target day
+PM2.5_lag3,lag,t-3,safe,observed value L days before the target day
+PM2.5_lag7,lag,t-7,safe,observed value L days before the target day
+PM2.5_lag14,lag,t-14,safe,observed value L days before the target day
+PM2.5_rmean3,rolling,t-3 to t-1,safe,mean of the 3 days before the target day
+PM2.5_rstd3,rolling,t-3 to t-1,safe,variability over the 3 days before the target day
+PM2.5_rmean7,rolling,t-7 to t-1,safe,mean of the 7 days before the target day
+PM2.5_rstd7,rolling,t-7 to t-1,safe,variability over the 7 days before the target day
+PM2.5_rmean14,rolling,t-14 to t-1,safe,mean of the 14 days before the target day
+PM2.5_rstd14,rolling,t-14 to t-1,safe,variability over the 14 days before the target day
+PM2.5_rmean30,rolling,t-30 to t-1,safe,mean of the 30 days before the target day
+PM2.5_rstd30,rolling,t-30 to t-1,safe,variability over the 30 days before the target day
+PM2.5_chg1,change,t-2 to t-1,safe,day-over-day change as of the forecast origin
+PM2.5_chg7,change,t-8 to t-1,safe,week-over-week change as of the forecast origin
+PM10_lag1,lag,t-1,safe,observed value L days before the target day
+PM10_lag2,lag,t-2,safe,observed value L days before the target day
+PM10_lag3,lag,t-3,safe,observed value L days before the target day
+PM10_lag7,lag,t-7,safe,observed value L days before the target day
+PM10_lag14,lag,t-14,safe,observed value L days before the target day
+PM10_rmean3,rolling,t-3 to t-1,safe,mean of the 3 days before the target day
+PM10_rstd3,rolling,t-3 to t-1,safe,variability over the 3 days before the target day
+PM10_rmean7,rolling,t-7 to t-1,safe,mean of the 7 days before the target day
+PM10_rstd7,rolling,t-7 to t-1,safe,variability over the 7 days before the target day
+PM10_rmean14,rolling,t-14 to t-1,safe,mean of the 14 days before the target day
+PM10_rstd14,rolling,t-14 to t-1,safe,variability over the 14 days before the target day
+PM10_rmean30,rolling,t-30 to t-1,safe,mean of the 30 days before the target day
+PM10_rstd30,rolling,t-30 to t-1,safe,variability over the 30 days before the target day
+PM10_chg1,change,t-2 to t-1,safe,day-over-day change as of the forecast origin
+PM10_chg7,change,t-8 to t-1,safe,week-over-week change as of the forecast origin
+NO2_lag1,lag,t-1,safe,yesterday's level; weather adds little for this pollutant
+NO2_rmean7,rolling,t-7 to t-1,safe,recent level of a pollutant that rarely sets the AQI
+SO2_lag1,lag,t-1,safe,yesterday's level; weather adds little for this pollutant
+SO2_rmean7,rolling,t-7 to t-1,safe,recent level of a pollutant that rarely sets the AQI
+CO_lag1,lag,t-1,safe,yesterday's level; weather adds little for this pollutant
+CO_rmean7,rolling,t-7 to t-1,safe,recent level of a pollutant that rarely sets the AQI
+Ozone_lag1,lag,t-1,safe,yesterday's level; weather adds little for this pollutant
+Ozone_rmean7,rolling,t-7 to t-1,safe,recent level of a pollutant that rarely sets the AQI
+wxobs_temp_mean_lag1,weather-observed,t-1,safe,yesterday's weather; known at forecast time
+wxobs_temp_mean_rmean3,weather-observed,t-3 to t-1,safe,3-day weather average ending at the forecast origin
+wxobs_temp_mean_rmean7,weather-observed,t-7 to t-1,safe,7-day weather average ending at the forecast origin
+wxobs_temp_range_lag1,weather-observed,t-1,safe,yesterday's weather; known at forecast time
+wxobs_temp_range_rmean3,weather-observed,t-3 to t-1,safe,3-day weather average ending at the forecast origin
+wxobs_temp_range_rmean7,weather-observed,t-7 to t-1,safe,7-day weather average ending at the forecast origin
+wxobs_dewpoint_mean_lag1,weather-observed,t-1,safe,yesterday's weather; known at forecast time
+wxobs_dewpoint_mean_rmean3,weather-observed,t-3 to t-1,safe,3-day weather average ending at the forecast origin
+wxobs_dewpoint_mean_rmean7,weather-observed,t-7 to t-1,safe,7-day weather average ending at the forecast origin
+wxobs_rain_sum_lag1,weather-observed,t-1,safe,yesterday's weather; known at forecast time
+wxobs_rain_sum_rmean3,weather-observed,t-3 to t-1,safe,3-day weather average ending at the forecast origin
+wxobs_rain_sum_rmean7,weather-observed,t-7 to t-1,safe,7-day weather average ending at the forecast origin
+wxobs_wind_speed_mean_lag1,weather-observed,t-1,safe,yesterday's weather; known at forecast time
+wxobs_wind_speed_mean_rmean3,weather-observed,t-3 to t-1,safe,3-day weather average ending at the forecast origin
+wxobs_wind_speed_mean_rmean7,weather-observed,t-7 to t-1,safe,7-day weather average ending at the forecast origin
+wxobs_pressure_mean_lag1,weather-observed,t-1,safe,yesterday's weather; known at forecast time
+wxobs_pressure_mean_rmean3,weather-observed,t-3 to t-1,safe,3-day weather average ending at the forecast origin
+wxobs_pressure_mean_rmean7,weather-observed,t-7 to t-1,safe,7-day weather average ending at the forecast origin
+wxobs_rain_cum3,weather-observed,t-3 to t-1,safe,total rainfall over the 3 days before the target day
+wxobs_rain_cum7,weather-observed,t-7 to t-1,safe,total rainfall over the 7 days before the target day
+wxfc_temp_mean,weather-same-day,t,requires-forecast,"weather on the target day; in production this is a FORECAST, so evaluating on reanalysis overstates accuracy"
+wxfc_temp_range,weather-same-day,t,requires-forecast,"weather on the target day; in production this is a FORECAST, so evaluating on reanalysis overstates accuracy"
+wxfc_dewpoint_mean,weather-same-day,t,requires-forecast,"weather on the target day; in production this is a FORECAST, so evaluating on reanalysis overstates accuracy"
+wxfc_rain_sum,weather-same-day,t,requires-forecast,"weather on the target day; in production this is a FORECAST, so evaluating on reanalysis overstates accuracy"
+wxfc_wind_speed_mean,weather-same-day,t,requires-forecast,"weather on the target day; in production this is a FORECAST, so evaluating on reanalysis overstates accuracy"
+wxfc_pressure_mean,weather-same-day,t,requires-forecast,"weather on the target day; in production this is a FORECAST, so evaluating on reanalysis overstates accuracy"
+wxfc_wind_dir_sin,weather-same-day,t,requires-forecast,cyclical encoding of wind direction
+wxfc_wind_dir_cos,weather-same-day,t,requires-forecast,cyclical encoding of wind direction
+ix_PM2.5_x_wind_speed_mean,interaction,t-1 level x t weather,requires-forecast,"dilution; particulates only, where weather has signal"
+ix_PM2.5_x_temp_range,interaction,t-1 level x t weather,requires-forecast,"nocturnal trapping; particulates only, where weather has signal"
+ix_PM2.5_x_rain_sum,interaction,t-1 level x t weather,requires-forecast,"wet deposition; particulates only, where weather has signal"
+ix_PM10_x_wind_speed_mean,interaction,t-1 level x t weather,requires-forecast,"dilution; particulates only, where weather has signal"
+ix_PM10_x_temp_range,interaction,t-1 level x t weather,requires-forecast,"nocturnal trapping; particulates only, where weather has signal"
+ix_PM10_x_rain_sum,interaction,t-1 level x t weather,requires-forecast,"wet deposition; particulates only, where weather has signal"
+cal_doy_sin,calendar,t,safe,"annual cycle; the date is known in advance, so this is not leakage"
+cal_doy_cos,calendar,t,safe,"annual cycle; the date is known in advance, so this is not leakage"
+cal_dow_sin,calendar,t,safe,"weekly traffic cycle; the date is known in advance, so this is not leakage"
+cal_dow_cos,calendar,t,safe,"weekly traffic cycle; the date is known in advance, so this is not leakage"
+cal_is_weekend,calendar,t,safe,"weekly traffic cycle; the date is known in advance, so this is not leakage"
+city_aqi_lag1,cross-station,t-1,safe,mean of the OTHER five stations yesterday; leave-one-out so a station never sees its own value
+city_PM10_lag1,cross-station,t-1,safe,mean of the OTHER five stations yesterday; leave-one-out so a station never sees its own value
