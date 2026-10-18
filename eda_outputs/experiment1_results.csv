@@ -1,0 +1,7 @@
+,n,MAE,RMSE,R2,MAE_AQI_gt100,n_gt100
+persistence,4060.0,11.67,20.6,0.64,18.22,1005.0
+history_only,4060.0,11.8,19.1,0.691,20.21,1005.0
++obs_weather_t-1,4060.0,11.73,18.94,0.696,20.14,1005.0
++same_day_reanalysis,4060.0,11.37,18.33,0.715,19.77,1005.0
++same_day_FORECAST (trained on reanalysis),4060.0,11.29,18.22,0.719,19.4,1005.0
++same_day_FORECAST (trained on forecast),4060.0,11.52,18.6,0.707,20.07,1005.0
